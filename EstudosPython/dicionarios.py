@@ -7,13 +7,14 @@ esta associado a uma chave
 """
 
 # O Conjunto de elementos dicionário é representado por duas chaves
-print(type ({}))
+print(type ({}) )
 
 d1 = {}
 print('d1 tem o tipo: ',type(d1))
+#Adicionando valores
 d1 ['aaa'] = 100
 d1 ['bbb'] = 200
-d1 ['ccc'] = 300
+d1 ['ccc'] = 300    
 print(d1)
 
 # OU
@@ -23,6 +24,19 @@ print(pessoa['nome'])
 print(pessoa['idade'])
 print(pessoa['cursos'][0])
 print(pessoa['cursos'][1])
+
+#ou
+print()
+d1 = dict(chave1='valor da chave',chave2='valor da outra chave')
+print(d1)
+
+
+"""
+As chaves devem conter um unico valor
+se repetir o valor da chave, o mesmo sera sobreposto
+exemplo -  chave = {'valor':500,'valor':700} - como ambos tem o msm valor
+o ultimo inserido vai sobrepor, valor contera 700
+"""
 
 # 
 print()

@@ -36,7 +36,7 @@ while x < opcoes:
         print()
     else:
         print('O CEP digitado não foi encotrado ou é inválido')
-        logging.warn('Todos os registros foram eviados com sucesso! hahahaehehuee')
+        logging.warn('O CEP digitado não foi encotrado ou é inválido!')
     x += 1  
     
 print('acabou')
